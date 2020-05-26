@@ -1,0 +1,150 @@
+header{
+    background-image:linear-gradient(#04519b, #044687 60%,#033769);
+    color:white;
+    min-height:110px;
+    padding-top:25px;
+}
+header .logo{
+    float:left;
+}
+header form{
+    float:right;
+}
+.panel-heading{
+    background-image:linear-gradient(#04519b, #044687 60%,#033769);
+    color:white !important;
+}
+.comment-avatar img{
+    width:40px;
+    margin-right:5px;
+}
+.friends li{
+    list-style:none;
+    display:inline;
+    padding:0 5px;
+    float:left;
+}
+.friends img{
+    width:55px;
+}
+.bubble{
+    position:relative;
+    width:500px;
+    min-height:65px;
+    padding:15px;
+    background:white;
+    border-radius:10px;
+    border:1px solid grey;
+    
+    
+}
+.bubble:after{
+    content:'';
+    position: absolute;
+    border-style:solid;
+    border-width:15px 15px 15px 0;
+    border-color: transparent #fff;
+    display:block;
+    width:0;
+    z-index:1;
+    margin-top:15px;
+    left:-15px;
+    top:15%;
+    
+}
+.groups{
+    float:left;
+    margin-right:15px;
+    height:70px;
+    width:70px;
+}
+.group-item{
+    border-bottom:1px solid grey;
+    padding-bottom:10px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.bubble:before{
+    content:'';
+    position: absolute;
+    border-style:solid;
+    border-width:15px 15px 15px 0;
+    border-color: transparent #ccc;
+    display:block;
+    width:0;
+    z-index:0;
+    margin-top:15px;
+    left:-16px;
+    top:15%;
+    
+}
+.post-action{
+    margin:5px;
+}
+.comment-form .form-group{
+    width:90% !important;
+}
+.comment-form input{
+    width:100% !important;
+}
+.comment{
+    border:1px solid grey;
+    border-radius: 5px;
+    padding:1px;
+    margin:5px 0;
+    overflow:auto;
+    width:100%;
+}
+footer{
+    background:#f4f4f4;
+    height:90px;
+    color:#04519b;
+    font-weight: bold;
+    text-align:center;
+    padding-top:40px;
+    margin-top: 30px;
+    border-top:7px solid #04519b;
+}
+@media(min-width:991px){
+.members p{
+    padding-top:40px;
+}
+}
+.members .member-row{
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    margin-bottom:20px;
+    
+}
+.profile ul{
+    margin-top: 30px;
+    
+}
+.profile li{
+    list-style: none;
+    line-height:1.9;
+}
+.photos{
+    margin:0;
+    padding:0;
+    
+}
+.photos li{
+    list-style: none;
+    float:left;
+    margin:5px;
+    width:23%;
+}
+.photos img{
+    width:100%;
+    
+}
+@media(max-width:500px){
+    .path{
+        margin-top:200px;
+    
+    }
+}
+
+
